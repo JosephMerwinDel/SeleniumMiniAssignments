@@ -53,6 +53,8 @@ def scroll(driver):
     actions = ActionChains(driver)
     actions.move_to_element(element).perform()
 
+def 
+
 driver = launch_browser()
 check_buttons(driver)
 driver = launch_browser()
@@ -67,7 +69,6 @@ scroll(driver)
 except TimeoutException:
     print("No popup...")'''
 
-#driver.find_element(by=By.XPATH, value="//h1[text() = 'BUTTON CLICKS']").click()
 
 
 
