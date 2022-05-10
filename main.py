@@ -13,7 +13,7 @@ driver.find_element(by=By.XPATH, value=".header-sprite.logo")
 driver.find_element(by=By.XPATH, value="div[@class='login__tab_wrapper']")
 
 #Hotels, Flights, Cabs
-driver.find_element(by=By.XPATH, value="a[text()='Hotels']")
+driver.find_element(by=By.XPATH, value="//a[text()='Hotels']")
 
 #Round-trip
 driver.find_element(by=By.XPATH, value="//span[.='Round-trip']")
